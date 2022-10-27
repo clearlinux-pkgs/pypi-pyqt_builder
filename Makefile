@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pyqt_builder
-URL = https://files.pythonhosted.org/packages/8b/5f/1bd49787262ddce37b826ef49dcccf5a9970facf0ed363dee5ee233e681d/PyQt-builder-1.12.2.tar.gz
+URL = https://files.pythonhosted.org/packages/3e/ed/fa5ffe4a72903747cdd5860a46483795edc0b70562015dde42724e9ce00f/PyQt-builder-1.14.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

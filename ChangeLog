@@ -1,3 +1,115 @@
+2022-09-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Fixed the QtQuick3D metadata for Qt v6.4.0.
+	[274306a008c8] [1.14.0]
+
+2022-09-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Added support for QtPdfWidgets for PyQt6.
+	[aa85c93ee908]
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Added support for QtPdf for PyQt6.
+	[052b671c9e8a]
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Added support for QtTextToSpeech for PyQt6.
+	[7d56949378ae]
+
+2022-09-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS:
+	Updated the NEWS file.
+	[b795e017a440]
+
+	* Merged the 1.13-maint branch.
+	[48ad8094adc1]
+
+2022-09-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/project.py:
+	Remove the use of distutils.
+	[cdebac42f8ce] <1.13-maint>
+
+2022-07-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/qt_wheel_main.py:
+	Fixed a misleading help text in pyqt-qt-wheel.
+	[3b8329c9063d] <1.13-maint>
+
+2022-07-19  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/builder.py, setup.py:
+	Use the enhanced Project.get_sip_distinfo_command_line() added to
+	SIP v6.7 to specify the wheel generator and version.
+	[4aae6e9f0c28] <1.13-maint>
+
+2022-07-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/builder.py:
+	Fixed the location of sip-distinfo.
+	[ecfed71612cc] <1.13-maint>
+
+2022-06-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.13.0 for changeset 068a418ac90b
+	[b5be160f07f1]
+
+2022-06-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6_webengine.py:
+	Fix the missing translations from PyQt6-WebEngine.
+	[068a418ac90b] [1.13.0]
+
+2022-05-17  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/builder.py:
+	The default ABI versions are now v12.11 and v13.4.
+	[45bb2785fa46]
+
+2022-05-13  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt5.py:
+	Fixed a syntax regression.
+	[42b3c6a05629]
+
+2022-04-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyqtbuild/bundle/abstract_package.py,
+	pyqtbuild/bundle/packages/pyqt3d.py,
+	pyqtbuild/bundle/packages/pyqt5.py,
+	pyqtbuild/bundle/packages/pyqtchart.py,
+	pyqtbuild/bundle/packages/pyqtdatavisualization.py,
+	pyqtbuild/bundle/packages/pyqtnetworkauth.py,
+	pyqtbuild/bundle/packages/pyqtpurchasing.py,
+	pyqtbuild/bundle/qt_metadata.py:
+	Removed support for versions of Qt older than v5.15.
+	[bd1cfdc9b537]
+
+	* pyqtbuild/bundle/dlls/openssl-32/libeay32.dll,
+	pyqtbuild/bundle/dlls/openssl-32/ssleay32.dll,
+	pyqtbuild/bundle/dlls/openssl-64/libeay32.dll,
+	pyqtbuild/bundle/dlls/openssl-64/ssleay32.dll:
+	Removed the OpenSSL DLLs not used by currently supported versions of
+	Python and Qt.
+	[d3ed99301b00]
+
+	* NEWS, setup.py:
+	Python v3.7 is the minimum supported version.
+	[df64b05608f8]
+
+	* Merged the 1.12-maint branch.
+	[32ee66dabb93]
+
+2021-10-28  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.12.2 for changeset 3f1d1850862b
+	[42e269a7a226] <1.12-maint>
+
 2021-10-25  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* pyqtbuild/bundle/qt_metadata.py:
