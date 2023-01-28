@@ -1,3 +1,15 @@
+2023-01-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/builder.py:
+	The patch version of Qt is now significant for Qt v5.15.
+	[f89520ece864] [1.14.1] <1.14-maint>
+
+2022-09-30  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.14.0 for changeset 274306a008c8
+	[8b41b07420e2]
+
 2022-09-21  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
