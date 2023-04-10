@@ -1,4 +1,23 @@
+2023-04-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Added support for QtSpatialAudio in PyQt6.
+	[5bfb21843088] [1.15.0]
+
+	* Merged the 1.14-maint branch.
+	[b15f1d11db00]
+
+2023-03-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, doc/introduction.rst:
+	Fixed the text of a link in the docs.
+	[9f12f174f341] <1.14-maint>
+
 2023-01-22  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.14.1 for changeset f89520ece864
+	[dfb2aa696d8a] <1.14-maint>
 
 	* NEWS, pyqtbuild/builder.py:
 	The patch version of Qt is now significant for Qt v5.15.
