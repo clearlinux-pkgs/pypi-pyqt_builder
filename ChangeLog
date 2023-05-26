@@ -1,4 +1,14 @@
+2023-04-24  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Added support for bindling the Qt6 QtLabs modules.
+	[05eb906a4b00] [1.15.1] <1.15-maint>
+
 2023-04-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.15.0 for changeset 5bfb21843088
+	[1dc08b243278]
 
 	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
 	Added support for QtSpatialAudio in PyQt6.
