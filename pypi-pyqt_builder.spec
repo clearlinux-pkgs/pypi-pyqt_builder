@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pyqt_builder
-Version  : 1.15.1
-Release  : 14
-URL      : https://files.pythonhosted.org/packages/31/d7/dbcb710a205014ca8f1c651ed77e6f1b1d0c67ab43c664afb079d6efb658/PyQt-builder-1.15.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/31/d7/dbcb710a205014ca8f1c651ed77e6f1b1d0c67ab43c664afb079d6efb658/PyQt-builder-1.15.1.tar.gz
+Version  : 1.15.2
+Release  : 15
+URL      : https://files.pythonhosted.org/packages/cb/f0/dc998da4a3358249a0e53927c831a52bfc2aa070a96e8164fffcf3dce349/PyQt-builder-1.15.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/cb/f0/dc998da4a3358249a0e53927c831a52bfc2aa070a96e8164fffcf3dce349/PyQt-builder-1.15.2.tar.gz
 Summary  : The PEP 517 compliant PyQt build system
 Group    : Development/Tools
 License  : GPL-2.0 GPL-3.0
@@ -67,11 +67,11 @@ python3 components for the pypi-pyqt_builder package.
 
 
 %prep
-%setup -q -n PyQt-builder-1.15.1
-cd %{_builddir}/PyQt-builder-1.15.1
-%patch1 -p1
+%setup -q -n PyQt-builder-1.15.2
+cd %{_builddir}/PyQt-builder-1.15.2
+%patch -P 1 -p1
 pushd ..
-cp -a PyQt-builder-1.15.1 buildavx2
+cp -a PyQt-builder-1.15.2 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685120377
+export SOURCE_DATE_EPOCH=1690211955
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

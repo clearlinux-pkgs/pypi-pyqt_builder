@@ -1,3 +1,35 @@
+2023-07-04  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Bundle the Qt6 qtconnectivity translations.
+	[6a8c8b8593be] [1.15.2] <1.15-maint>
+
+2023-06-18  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt5.py:
+	Bundle qtscript translations with Qt5 as they are a hidden
+	requirement.
+	[19bda6c3a656] <1.15-maint>
+
+2023-06-08  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyqtbuild/builder.py:
+	Added a comment clarifying the minimum glibc versions.
+	[6175c09e8526] <1.15-maint>
+
+2023-06-07  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6_charts.py,
+	pyqtbuild/bundle/packages/pyqt6_datavisualization.py:
+	Bundle the QML libraries for QtCharts and QtDataVisualization.
+	[c4e0f178501e] <1.15-maint>
+
+2023-05-25  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.15.1 for changeset 05eb906a4b00
+	[5360f757241c] <1.15-maint>
+
 2023-04-24  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
