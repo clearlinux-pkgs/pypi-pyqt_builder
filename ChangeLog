@@ -1,3 +1,43 @@
+2023-10-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyqtbuild/project.py:
+	Bug fix the --apple-universal2 implementation.
+	[a37190fe3ff5] [1.15.3] <1.15-maint>
+
+	* NEWS, doc/command_line_tools.rst, doc/pyproject_toml.rst,
+	pyqtbuild/builder.py, pyqtbuild/project.py:
+	Replaced the '--arch' command line option with '--apple-universal2'.
+	[0074987b24c9] <1.15-maint>
+
+	* NEWS, doc/command_line_tools.rst, doc/pyproject_toml.rst,
+	pyqtbuild/builder.py, pyqtbuild/project.py:
+	Added the --arch command line option to the build tools to specify a
+	particular target architecture on macOS.
+	[fe7af588b73e] <1.15-maint>
+
+2023-09-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/qt_wheel.py:
+	Makesure the minimum macOS SDK version is always v11 for arm64.
+	[160f1b512c25] <1.15-maint>
+
+2023-09-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* pyqtbuild/bundle/qt_metadata.py, pyqtbuild/bundle/qt_wheel.py:
+	Added support for bundle and wheel support for Qt v5 on Apple
+	silicon.
+	[4f3655fa0aa5] <1.15-maint>
+
+	* NEWS, pyqtbuild/project.py:
+	Universal Apple wheels are now supported for Qt v5.15.10 and later.
+	[dafce7b3110d] <1.15-maint>
+
+2023-07-21  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.15.2 for changeset 6a8c8b8593be
+	[e7dcdf824d91] <1.15-maint>
+
 2023-07-04  Phil Thompson  <phil@riverbankcomputing.com>
 
 	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
