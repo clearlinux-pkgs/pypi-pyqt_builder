@@ -1,4 +1,38 @@
+2023-11-23  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, doc/pyproject_toml.rst:
+	Fixed the reference to apple-universal2 in the docs.
+	[0f4d56de8ca1] [1.15.4] <1.15-maint>
+
+2023-11-20  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt5.py:
+	Added QtMultimediaQuick to the Qt5 bundle.
+	[ec362ec12d6b] <1.15-maint>
+
+2023-11-15  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt5.py:
+	Removed some more plugins from the PyQt5 bundle.
+	[c235798a3a51] <1.15-maint>
+
+2023-11-14  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt5.py:
+	Don't bundle the Qt5 virtualkeyboard plugin.
+	[ee536f1399c0] <1.15-maint>
+
+2023-11-06  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* NEWS, pyqtbuild/bundle/packages/pyqt6.py:
+	Bundle the QtWebChannelQuick library.
+	[da0ceb530967] <1.15-maint>
+
 2023-10-12  Phil Thompson  <phil@riverbankcomputing.com>
+
+	* .hgtags:
+	Added tag 1.15.3 for changeset a37190fe3ff5
+	[4ab36f4758ab] <1.15-maint>
 
 	* pyqtbuild/project.py:
 	Bug fix the --apple-universal2 implementation.
