@@ -1,0 +1,28 @@
+From 98d3d99e2abb92ba30788e1fa298fb6c0cca51b8 Mon Sep 17 00:00:00 2001
+From: "Brett T. Warden" <brett.t.warden@intel.com>
+Date: Tue, 2 Apr 2024 13:21:42 -0700
+Subject: [PATCH] Report shared python library if it exists
+
+We explicitly build a static Python (for performance), but also build
+the shared library for applications that want it. Alter the detection
+logic here so that pyqtbuild detects the dynamic library.
+---
+ pyqtbuild/project.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyqtbuild/project.py b/pyqtbuild/project.py
+index 20ab60fcdfd4..178f9887c2d2 100644
+--- a/pyqtbuild/project.py
++++ b/pyqtbuild/project.py
+@@ -105,7 +105,7 @@ class PyQtProject(Project):
+             if not dynamic_pylib:
+                 dynamic_pylib = '--enable-framework' in config_args
+ 
+-            if dynamic_pylib:
++            if dynamic_pylib or glob('/usr/lib64/libpython{}.{}.so*'.format(self.py_major_version, self.py_minor_version)):
+                 pylib_shlib = ducfg.get('LDLIBRARY', '')
+ 
+                 exec_prefix = ducfg['exec_prefix']
+-- 
+2.44.0
+
